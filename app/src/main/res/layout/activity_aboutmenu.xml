@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="16dp"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    tools:context=".AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/_imageDetail"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/about"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/imageTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="ABOUT"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@id/_imageDetail"
+            android:layout_marginTop="5dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/imageDesc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageTitle"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:text="DEVELOPED : Agus Latif Hanafi"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/imageDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageTitle"
+            android:layout_marginTop="39dp"
+            android:gravity="center"
+            android:text="NIM : 21 411 -58"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/imageDesc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageTitle"
+            android:layout_marginTop="61dp"
+            android:gravity="center"
+            android:text="PRODI : Teknik Informatika"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/imageDesc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageTitle"
+            android:layout_marginTop="83dp"
+            android:gravity="center"
+            android:text="UTS MOBILE COMPUTING"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/imageDesc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageTitle"
+            android:layout_marginTop="125dp"
+            android:gravity="center"
+            android:text="Aplikasi Media Pembelajaran Tarot ini bertujuan untuk dapat memahami makna simbolis dari tarot sehingga tarot dapat diinterpretasi secara akurat dalam setiap pembacaan tarot."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

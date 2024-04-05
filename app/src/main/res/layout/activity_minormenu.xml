@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MinorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- First set -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/_imageDetail"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:src="@drawable/upace" />
+
+            <TextView
+                android:id="@+id/imageTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_imageDetail"
+                android:layout_marginTop="-47dp"
+                android:gravity="center"
+                android:text="ACE OF SWORDS"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/imageDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Kartu Ace of Swords dalam tarot merupakan simbol kebenaran, kejelasan, dan kekuatan intelektual. Kartu ini menggambarkan sebuah pedang yang diangkat tinggi di atas awan, melambangkan pemahaman yang tajam dan keputusan yang jelas. Simbol ini menandakan kebenaran yang bersinar terang, pemikiran yang jernih, dan keputusan yang tegas. Ace of Swords juga menggambarkan potensi untuk memotong melalui keraguan atau hambatan dengan keberanian dan ketegasan."
+                android:textColor="@color/white"
+                android:gravity="start|end"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/imageTitle"/>
+        </RelativeLayout>
+        <!-- First set -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/_imageDetail1"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:src="@drawable/atarot" />
+
+            <TextView
+                android:id="@+id/imageTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="THE HIGH PRIESTESS"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/_imageDetail1"
+                android:layout_marginTop="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/imageDesc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Arti kartu The High Priestess adalah kebijaksaan dan bagian tersembunyi dalam diri seseorang. The High Priestess merupakan kartu ke-2 dalam dek tarot, kartu ini masih dalam dek major arcana. Kartu The High Priestess digambarkan sebagai seorang perempuan agung yang memiliki kesucian batin.
+
+    Sebuah kitab yang dipegang oleh the high priestess melambangkan kekuatan spiritual dan misteri. Hal ini mengindikasikan bahwa hukum alam berada di atas segalanya. Adapun versi lain dari kartu ini yang digambarkan dengan ornament di belakang singgasana sebagai buah delima, ini merupakan simbol dari Persephone, ia merupakan dewi kejahatan dalam mitologi Yunani."
+                android:textColor="@color/white"
+                android:gravity="left"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/imageTitle1"/>
+        </RelativeLayout>
+
+        <!-- Second set (similar to the first set, adjust IDs accordingly) -->
+        <!-- Third set -->
+        <!-- Fourth set -->
+        <!-- Fifth set -->
+    </LinearLayout>
+</ScrollView>
